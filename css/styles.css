@@ -60,3 +60,14 @@ h1 {
   left: 50px;
   margin-bottom: 25px;
 }
+
+.FrontPageFooter {
+  background-color: #6c7b95;
+  height: 100px;
+  margin-bottom: 0px;
+}
+
+.FlaticonLink {
+  padding-top: 40px;
+  font-size: 16px
+}
