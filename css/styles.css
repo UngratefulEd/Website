@@ -14,6 +14,8 @@ h1 {
   margin-bottom: 0px;
 }
 
+/******************************index.html CSS**************/
+
 .FrontPageTop {
   background-color: #6c7b95;
   height: 100vh;
@@ -35,6 +37,7 @@ h1 {
   font-size: 150px;
   margin: 0px;
 }
+
 
 /*.PokeballLeft {
   width: 150px;
@@ -69,5 +72,21 @@ h1 {
 
 .FlaticonLink {
   padding-top: 40px;
-  font-size: 16px
+  font-size: 16px;
+}
+
+.controllerImage {
+height: 60vh;
+}
+
+/***************************Twitch.html CSS*****************/
+.TwitchPageHeader {
+  background-color: #6c7b95;
+  padding: 25px;
+}
+
+.TwitchPageLogo {
+  width: 25%;
+  position: relative;
+  left: 50px;
 }

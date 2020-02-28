@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ungrateful Ed Twitch</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Odibee+Sans|Oxanium&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="TwitchPageHeader">
+      <img class="TwitchPageLogo" src="images/Twitchlogo.png" alt="Twitch Logo">
+    </div>
+
+    <div class="TopLinks">
+      <h2><a href="index.html">Home</a></h2>
+    </div>
+
+
+
+    <!-- Add a placeholder for the Twitch embed -->
+ <div id="twitch-embed">
+
+ <!-- Load the Twitch embed script -->
+ <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+ <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+ <script type="text/javascript">
+   new Twitch.Embed("twitch-embed", {
+     width: 854,
+     height: 480,
+     channel: "UngratefulEd"
+   });
+ </script>
+
+<div class="schedule">
+ <h1>Schedule</h1>
+   <p>Friday starting at 8:00 PM eastern<br />
+   Saturday starting at 7:00 PM eastern<br />
+   Sunday starting at 8:00 PM easter<br />
+   I may stream on other days if I feel like it.</p>
+
+ </div>
+
+
+
+
+
+  </body>
+</html>
